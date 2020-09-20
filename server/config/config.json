@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "root",
+    "database": "leaderboard",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "root",
+    "database": "bookstore",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "NodePostgres2020",
+    "database": "bookstore",
+    "host": "node-test.crx3rvjnywst.us-east-1.rds.amazonaws.com",
+    "dialect": "postgres"
+  }
+}
